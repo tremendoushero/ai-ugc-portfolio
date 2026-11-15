@@ -5,9 +5,9 @@ import './SelectedWork.css';
 export default function SelectedWork() {
   const projects = [
     {
-      title: 'Skincare — AI Product Commercial',
+      title: 'Beauty From Bees — AI Product Commercial',
       category: 'Cosmetics & D2C Beauty',
-      aspectRatio: '9:16 Vertical / 16:9 Cut',
+      aspectRatio: '9:16 Vertical / 23s',
       ratioSlug: 'vertical',
       videoPath: '/videos/skincare-ad.mp4',
       description:
@@ -64,7 +64,7 @@ export default function SelectedWork() {
         'An authentic, relatable creator-led spec advertisement featuring a hyper-realistic AI creator persona in a warm bathroom setting. Demonstrates rich coconut oil emulsion, split-end smoothing, and effortless detangling with organic voiceover cadence.',
       visualStyle: 'Native creator selfie-style, warm ambient bathroom lighting, unscripted aesthetic',
       platforms: 'TikTok Spark Ads, Instagram Reels, YouTube Shorts',
-      hookAngle: '"If your ends feel like straw after bleaching, stop scrolling" — immediate pain-point address',
+      hookAngle: '"Okay, this coconut oil conditioner is my new wash day obsession."',
       techUsed: 'Generative Digital Human Persona, Voice Cloning, Temporal Consistency Engine',
       fallbackGraphic: (
         <svg viewBox="0 0 320 480" className="fallback-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -114,7 +114,7 @@ export default function SelectedWork() {
         'A dynamic product demo illustrating ultra-fast smoothie blending, magnetic safety interlocking, and one-touch pulse vortex action. Designed to demystify product mechanics and drive high click-through intent on paid social feeds.',
       visualStyle: 'Modern kitchen counter staging, dynamic motion blur, crisp sound design sync',
       platforms: 'TikTok Shop Creatives, Meta Feed Ads, Amazon Product Detail Video',
-      hookAngle: '"Crushing ice in 12 seconds with zero cord hassle" — speed and convenience proof',
+      hookAngle: '"Stop dragging out a massive, heavy blender just to make one shake or chop onions."',
       techUsed: 'Physics-Accurate Fluid Generation, Multi-Angle AI Camera Rig, Audio Stems',
       fallbackGraphic: (
         <svg viewBox="0 0 320 480" className="fallback-svg" fill="none" xmlns="http://www.w3.org/2000/svg">

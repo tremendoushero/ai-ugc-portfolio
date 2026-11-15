@@ -20,9 +20,8 @@ A production-ready, high-converting one-page portfolio website built for **Chand
    - Headline: `AI UGC THAT MAKES PRODUCTS IMPOSSIBLE TO IGNORE.`
    - Subtitle: `Scroll-stopping AI-powered video ads for modern e-commerce brands.`
    - Action buttons: `VIEW MY WORK` & `LET'S WORK TOGETHER`
-   - Editorial 16:9 studio showreel monitor frame with telemetry markers, audio/pipeline metrics, and spec compilation badge.
 3. **Selected Work (Spec Projects)**:
-   - **Project 01**: `Skincare — AI Product Commercial` (Macro serum texture, fluid physics, high-contrast studio glow)
+   - **Project 01**: `Beauty From Bees — AI Product Commercial` (Macro serum texture, fluid physics, high-contrast studio glow)
    - **Project 02**: `HASK Hydrate Coconut Oil Conditioner — AI Creator-led UGC` (Bathroom selfie persona, natural cadence, moisture proof)
    - **Project 03**: `OCOOKER Kitchen Gadget — AI Product Demonstration` (High-speed vortex blending, cordless mobility)
    - Every card explicitly labeled: `UNOFFICIAL SPEC AD / INDEPENDENT CONCEPT`
@@ -56,7 +55,7 @@ The video players are configured to read local MP4 files directly from the `publ
 
 | Project | File Path | Aspect Ratio | Category | Status |
 | :--- | :--- | :--- | :--- | :--- |
-| **Project 01 (Skincare)** | `public/videos/skincare-ad.mp4` | 9:16 Vertical / 16:9 | Cosmetics & D2C Beauty | **Connected & Live** |
+| **Project 01 (Beauty From Bees)** | `public/videos/skincare-ad.mp4` | 9:16 Vertical / 23s | Cosmetics & D2C Beauty | **Connected & Live** |
 | **Project 02 (HASK Conditioner)** | `public/videos/hask-conditioner-ad.mp4` | 9:16 Vertical | Hair Care & Organic Beauty | **Connected & Live** |
 | **Project 03 (OCOOKER Gadget)** | `public/videos/ocooker-blender-ad.mp4` | 9:16 Vertical | Smart Kitchen Gadgets | **Connected & Live** |
 
