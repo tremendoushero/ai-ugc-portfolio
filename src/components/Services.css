@@ -18,9 +18,9 @@
 
 .service-card:hover {
   background: var(--bg-surface-elevated);
-  border-color: var(--border-medium);
+  border-color: var(--accent-lime-border);
   transform: translateY(-4px);
-  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.7), 0 0 20px -5px rgba(93, 214, 44, 0.1);
 }
 
 .service-card-top {
@@ -36,6 +36,11 @@
   font-weight: 700;
   letter-spacing: 0.12em;
   color: var(--text-muted);
+  transition: color var(--transition-fast);
+}
+
+.service-card:hover .service-num {
+  color: var(--accent-lime);
 }
 
 .service-icon-wrap {
@@ -57,9 +62,9 @@
 }
 
 .service-card:hover .service-icon-wrap {
-  background: #ffffff;
-  color: #080808;
-  border-color: #ffffff;
+  background: var(--accent-lime);
+  color: #0F0F0F;
+  border-color: var(--accent-lime);
 }
 
 .service-title {
@@ -110,6 +115,11 @@
   border: 1px solid var(--border-subtle);
   padding: 0.25rem 0.6rem;
   border-radius: var(--radius-full);
+  transition: border-color var(--transition-fast);
+}
+
+.service-card:hover .tag-chip {
+  border-color: rgba(93, 214, 44, 0.3);
 }
 
 @media (max-width: 1024px) {

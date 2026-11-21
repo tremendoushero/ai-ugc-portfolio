@@ -24,6 +24,7 @@ A production-ready, high-converting one-page portfolio website built for **Chand
    - **Project 01**: `Beauty From Bees — AI Product Commercial` (Macro serum texture, fluid physics, high-contrast studio glow)
    - **Project 02**: `HASK Hydrate Coconut Oil Conditioner — AI Creator-led UGC` (Bathroom selfie persona, natural cadence, moisture proof)
    - **Project 03**: `OCOOKER Kitchen Gadget — AI Product Demonstration` (High-speed vortex blending, cordless mobility)
+   - **Project 04**: `Jewellery Advertisement — AI Luxury Commercial` (Macro facet refraction, gold luster, editorial rotation)
    - Every card explicitly labeled: `UNOFFICIAL SPEC AD / INDEPENDENT CONCEPT`
    - Playable HTML5 video previews with `controls`, `muted`, `playsInline`, and graceful fallback states when local video files are not yet mounted.
 4. **Services**: 5 bespoke capability cards with clean SVG icons:
@@ -58,6 +59,7 @@ The video players are configured to read local MP4 files directly from the `publ
 | **Project 01 (Beauty From Bees)** | `public/videos/skincare-ad.mp4` | 9:16 Vertical / 23s | Cosmetics & D2C Beauty | **Connected & Live** |
 | **Project 02 (HASK Conditioner)** | `public/videos/hask-conditioner-ad.mp4` | 9:16 Vertical | Hair Care & Organic Beauty | **Connected & Live** |
 | **Project 03 (OCOOKER Gadget)** | `public/videos/ocooker-blender-ad.mp4` | 9:16 Vertical | Smart Kitchen Gadgets | **Connected & Live** |
+| **Project 04 (Jewellery Ad)** | `public/videos/jewellery-ad.mp4` | 9:16 Vertical | Luxury & Fine Jewellery | **Connected & Live** |
 
 ### When Videos Are Not Present:
 The portfolio does **not break or display an empty broken media icon**. Instead, it renders an editorial fallback card with:

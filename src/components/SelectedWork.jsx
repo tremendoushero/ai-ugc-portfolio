@@ -86,7 +86,7 @@ export default function SelectedWork() {
           <path d="M125 140 C125 128 135 124 146 124 H174 C185 124 195 128 195 140 L204 220 C206 240 206 310 200 340 C198 348 190 354 180 354 H140 C130 354 122 348 120 340 C114 310 114 240 116 220 Z" 
                 stroke="#555555" strokeWidth="1.5" fill="#131313"/>
           {/* Bottle Label Area */}
-          <rect x="130" y="180" width="60" height="110" rx="3" stroke="#333333" fill="#0a0a0a"/>
+          <rect x="130" y="180" width="60" height="110" rx="3" stroke="#333333" fill="#0F0F0F"/>
           {/* Botanical leaf detail inside label */}
           <path d="M160 205 C150 215 152 230 160 238 C168 230 170 215 160 205 Z" 
                 stroke="#777777" strokeWidth="1.2" fill="#1c1c1c"/>
@@ -150,6 +150,47 @@ export default function SelectedWork() {
           {/* Label Banner */}
           <text x="160" y="415" fill="#71717a" fontSize="10" fontFamily="Space Grotesk, sans-serif" textAnchor="middle" letterSpacing="2">
             SMART BLENDER SPEC • SPEED DEMO
+          </text>
+        </svg>
+      )
+    },
+    {
+      title: 'Jewellery Advertisement — AI Luxury Commercial',
+      category: 'Luxury & Fine Jewellery',
+      aspectRatio: '9:16 Vertical Video',
+      ratioSlug: 'vertical',
+      videoPath: '/videos/jewellery-ad.mp4',
+      description:
+        'A high-end luxury jewellery spec commercial spotlighting diamond facet reflections, metallic gold luster, and cinematic macro motion. Crafted to elevate brand prestige and capture immediate attention in premium social feeds.',
+      visualStyle: 'Moody editorial studio lighting, ray-traced gemstone refraction, slow-motion orbit',
+      platforms: 'Instagram Reels, TikTok Luxury Ads, High-Ticket E-Commerce',
+      hookAngle: '"Timeless brilliance in motion" — macro diamond sparkle and light dispersion in 3 seconds',
+      techUsed: 'Neural Ray Reconstruction, Macro Camera Control, Spatial Audio Sound Design',
+      fallbackGraphic: (
+        <svg viewBox="0 0 320 480" className="fallback-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* Aesthetic Luxury Diamond Ring Graphic */}
+          <rect width="320" height="480" fill="#0d0d0d"/>
+          <circle cx="160" cy="220" r="110" fill="url(#jewelleryGlow)" opacity="0.15"/>
+          <defs>
+            <radialGradient id="jewelleryGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stopColor="#ffffff"/>
+              <stop offset="100%" stopColor="#000000" stopOpacity="0"/>
+            </radialGradient>
+          </defs>
+          {/* Faceted Gemstone / Diamond */}
+          <polygon points="160,110 200,150 180,190 140,190 120,150" stroke="#777777" strokeWidth="1.5" fill="#181818"/>
+          <polygon points="160,110 175,150 160,190 145,150" stroke="#555555" strokeWidth="1" fill="#1f1f1f"/>
+          <line x1="120" y1="150" x2="200" y2="150" stroke="#666666" strokeWidth="1"/>
+          {/* Ring Band */}
+          <ellipse cx="160" cy="270" rx="60" ry="70" stroke="#555555" strokeWidth="3" fill="none"/>
+          <ellipse cx="160" cy="270" rx="52" ry="62" stroke="#222222" strokeWidth="1.5" fill="none"/>
+          {/* Sparkle glints */}
+          <path d="M195 125 L200 110 L205 125 L220 130 L205 135 L200 150 L195 135 L180 130 Z" fill="#ffffff" opacity="0.8"/>
+          <circle cx="125" cy="180" r="2" fill="#ffffff" opacity="0.6"/>
+          <circle cx="195" cy="195" r="2.5" fill="#ffffff" opacity="0.7"/>
+          {/* Technical markers */}
+          <text x="160" y="420" fill="#71717a" fontSize="10" fontFamily="Space Grotesk, sans-serif" textAnchor="middle" letterSpacing="2">
+            FINE JEWELLERY SPEC • MACRO SHINE
           </text>
         </svg>
       )

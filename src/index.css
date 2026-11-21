@@ -3,19 +3,45 @@
    ========================================================================== */
 
 :root {
-  --bg-primary: #080808;
-  --bg-surface: #111111;
-  --bg-surface-elevated: #171717;
-  --bg-surface-highlight: #1f1f1f;
+  /* Exact Color Palette: Dark + Lime & Deep Green Accents */
+  --bg-primary: #0F0F0F;
+  --bg-surface: #202020;
+  --bg-surface-elevated: #282828;
+  --bg-surface-highlight: #323232;
 
-  --border-subtle: #222222;
-  --border-medium: #333333;
-  --border-hover: #555555;
+  --border-subtle: #2A2A2A;
+  --border-medium: #383838;
+  --border-hover: #4C4C4C;
 
-  --text-primary: #ffffff;
-  --text-secondary: #a1a1aa;
-  --text-muted: #71717a;
-  --text-accent: #f4f4f5;
+  --text-primary: #F8F8F8;
+  --text-secondary: #A3A3A3;
+  --text-muted: #737373;
+  --text-accent: #FFFFFF;
+
+  /* Primary Accent: Lime Green (#5DD62C) */
+  --accent-lime: #5DD62C;
+  --accent-lime-hover: #4ec023;
+  --accent-lime-rgb: 93, 214, 44;
+  --accent-lime-subtle: rgba(93, 214, 44, 0.08);
+  --accent-lime-border: rgba(93, 214, 44, 0.32);
+  --accent-lime-glow: rgba(93, 214, 44, 0.28);
+
+  /* Secondary Accent: Deep Green (#337418) */
+  --accent-deep: #337418;
+  --accent-deep-rgb: 51, 116, 24;
+  --accent-deep-subtle: rgba(51, 116, 24, 0.16);
+
+  /* Subtle Gradients */
+  --accent-gradient: linear-gradient(135deg, #5DD62C 0%, #337418 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #68e833 0%, #3b871c 100%);
+
+  /* System aliases */
+  --accent-green: var(--accent-lime);
+  --accent-green-hover: var(--accent-lime-hover);
+  --accent-green-rgb: var(--accent-lime-rgb);
+  --accent-green-subtle: var(--accent-lime-subtle);
+  --accent-green-border: var(--accent-lime-border);
+  --accent-green-glow: var(--accent-lime-glow);
 
   --font-display: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -64,8 +90,8 @@ body {
 
 /* Selection */
 ::selection {
-  background: #ffffff;
-  color: #080808;
+  background: var(--accent-lime);
+  color: #0F0F0F;
 }
 
 /* Custom Scrollbar */
@@ -80,7 +106,7 @@ body {
   border-radius: var(--radius-full);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--border-hover);
+  background: var(--accent-lime);
 }
 
 /* Typography Defaults */
@@ -145,8 +171,8 @@ button {
   letter-spacing: 0.14em;
   color: var(--text-secondary);
   padding: 0.35rem 0.85rem;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid var(--border-subtle);
+  background: var(--accent-green-subtle);
+  border: 1px solid var(--accent-green-border);
   border-radius: var(--radius-full);
   margin-bottom: 1.25rem;
 }
@@ -182,28 +208,32 @@ button {
   user-select: none;
 }
 
+/* Primary CTA Button: Lime Green */
 .btn-primary {
-  background: #ffffff;
-  color: #080808;
-  border: 1px solid #ffffff;
+  background: var(--accent-lime);
+  color: #0F0F0F;
+  border: 1px solid var(--accent-lime);
+  font-weight: 700;
 }
 
 .btn-primary:hover {
-  background: #e4e4e7;
-  border-color: #e4e4e7;
+  background: var(--accent-lime-hover);
+  border-color: var(--accent-lime-hover);
+  color: #0F0F0F;
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 25px -5px rgba(93, 214, 44, 0.38), 0 0 16px -2px rgba(51, 116, 24, 0.3);
 }
 
 .btn-secondary {
   background: transparent;
-  color: #ffffff;
+  color: var(--text-primary);
   border: 1px solid var(--border-medium);
 }
 
 .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: var(--border-hover);
+  background: rgba(93, 214, 44, 0.08);
+  border-color: rgba(93, 214, 44, 0.4);
+  color: var(--text-primary);
   transform: translateY(-2px);
 }
 
@@ -217,7 +247,7 @@ button {
   transform: translateX(3px);
 }
 
-/* Status Indicator Dot */
+/* Status Indicator Dot: Lime Pulse */
 .status-indicator {
   display: inline-flex;
   align-items: center;
@@ -228,8 +258,8 @@ button {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #ffffff;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  background: var(--accent-lime);
+  box-shadow: 0 0 10px rgba(93, 214, 44, 0.75);
   animation: pulseDot 2.2s infinite ease-in-out;
 }
 
@@ -239,7 +269,7 @@ button {
     transform: scale(1);
   }
   50% {
-    opacity: 0.35;
+    opacity: 0.4;
     transform: scale(0.85);
   }
 }

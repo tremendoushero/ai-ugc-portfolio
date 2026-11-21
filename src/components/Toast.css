@@ -7,11 +7,12 @@
   align-items: center;
   justify-content: space-between;
   gap: 1.25rem;
-  background: #ffffff;
-  color: #080808;
+  background: var(--bg-surface);
+  color: var(--text-primary);
   padding: 0.85rem 1.25rem;
   border-radius: var(--radius-md);
-  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.9), 0 0 0 1px rgba(255, 255, 255, 0.2);
+  border: 1px solid var(--accent-lime-border);
+  box-shadow: 0 16px 36px -8px rgba(0, 0, 0, 0.9), 0 0 20px -5px rgba(93, 214, 44, 0.25);
   animation: slideInToast 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   max-width: 420px;
 }
@@ -24,11 +25,11 @@
 
 .toast-icon {
   font-weight: 800;
-  font-size: 0.9rem;
-  background: #080808;
-  color: #ffffff;
-  width: 20px;
-  height: 20px;
+  font-size: 0.85rem;
+  background: var(--accent-lime);
+  color: #0F0F0F;
+  width: 22px;
+  height: 22px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -46,7 +47,7 @@
   background: none;
   border: none;
   font-size: 0.9rem;
-  color: #71717a;
+  color: var(--text-muted);
   cursor: pointer;
   padding: 0.2rem;
   line-height: 1;
@@ -54,7 +55,7 @@
 }
 
 .toast-close:hover {
-  color: #080808;
+  color: var(--accent-green);
 }
 
 @keyframes slideInToast {

@@ -36,11 +36,12 @@
   padding: 2.5rem;
   box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.7);
   margin-bottom: 2rem;
-  transition: border-color var(--transition-normal);
+  transition: border-color var(--transition-normal), box-shadow var(--transition-normal);
 }
 
 .contact-card:hover {
-  border-color: var(--border-hover);
+  border-color: var(--accent-lime-border);
+  box-shadow: 0 24px 48px -12px rgba(0, 0, 0, 0.8), 0 0 25px -5px rgba(93, 214, 44, 0.12);
 }
 
 .contact-card-inner {
@@ -81,8 +82,8 @@
 }
 
 .contact-email-link:hover {
-  color: #ffffff;
-  text-decoration-color: #ffffff;
+  color: var(--accent-lime);
+  text-decoration-color: var(--accent-lime);
 }
 
 .contact-actions-row {
@@ -111,15 +112,16 @@
 }
 
 .btn-copy:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(93, 214, 44, 0.08);
   color: var(--text-primary);
-  border-color: var(--border-hover);
+  border-color: var(--accent-lime-border);
 }
 
 .btn-copy.is-copied {
-  background: #ffffff;
-  color: #080808;
-  border-color: #ffffff;
+  background: var(--accent-lime);
+  color: #0F0F0F;
+  border-color: var(--accent-lime);
+  font-weight: 700;
 }
 
 .contact-send-btn {
@@ -158,7 +160,7 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.4rem 0.9rem;
-  background: #111111;
+  background: #181818;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-full);
   font-family: var(--font-display);
@@ -169,15 +171,15 @@
 }
 
 .template-pill:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--border-medium);
+  background: rgba(93, 214, 44, 0.08);
+  border-color: var(--accent-lime-border);
   color: var(--text-primary);
   transform: translateY(-2px);
 }
 
 .pill-arrow {
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: var(--accent-lime);
 }
 
 /* Expectations Grid */
@@ -190,7 +192,7 @@
 }
 
 .expectation-item {
-  background: #0d0d0d;
+  background: #181818;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   padding: 1.4rem;

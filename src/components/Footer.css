@@ -1,5 +1,5 @@
 .footer-root {
-  background: #050505;
+  background: #0B0B0B;
   border-top: 1px solid var(--border-subtle);
   padding-top: clamp(4rem, 8vw, 6rem);
   padding-bottom: 2.5rem;
@@ -72,7 +72,8 @@
 }
 
 .footer-email-link:hover {
-  text-decoration-color: #ffffff;
+  color: var(--accent-green);
+  text-decoration-color: var(--accent-green);
 }
 
 .footer-col-heading {
@@ -100,7 +101,7 @@
 }
 
 .footer-nav-list a:hover {
-  color: var(--text-primary);
+  color: var(--accent-green);
 }
 
 .footer-focus-list li {
@@ -111,7 +112,7 @@
 
 /* Disclaimer Box */
 .footer-disclaimer-box {
-  background: #090909;
+  background: #141414;
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
   padding: 1.5rem 1.75rem;
@@ -170,7 +171,7 @@
 }
 
 .back-to-top:hover {
-  color: var(--text-primary);
+  color: var(--accent-green);
   transform: translateY(-2px);
 }
 

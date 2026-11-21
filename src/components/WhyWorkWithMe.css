@@ -15,9 +15,10 @@
 }
 
 .why-card:hover {
-  border-color: var(--border-medium);
+  border-color: var(--accent-lime-border);
   background: var(--bg-surface-elevated);
   transform: translateY(-3px);
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.7), 0 0 20px -5px rgba(93, 214, 44, 0.1);
 }
 
 .why-card-header {
@@ -33,12 +34,22 @@
   font-weight: 800;
   letter-spacing: 0.1em;
   color: var(--text-primary);
+  transition: color var(--transition-fast);
+}
+
+.why-card:hover .why-card-num {
+  color: var(--accent-lime);
 }
 
 .why-card-rule {
   flex-grow: 1;
   height: 1px;
   background: var(--border-subtle);
+  transition: background var(--transition-normal);
+}
+
+.why-card:hover .why-card-rule {
+  background: linear-gradient(90deg, #5DD62C 0%, #337418 60%, transparent 100%);
 }
 
 .why-card-title {
