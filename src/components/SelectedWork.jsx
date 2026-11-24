@@ -55,59 +55,9 @@ export default function SelectedWork() {
       )
     },
     {
-      title: 'HASK Hydrate Coconut Oil Conditioner — AI Creator-led UGC',
-      category: 'Hair Care & Organic Beauty',
-      aspectRatio: '9:16 Vertical Ad',
-      ratioSlug: 'vertical',
-      videoPath: '/videos/hask-conditioner-ad.mp4',
-      description:
-        'An authentic, relatable creator-led spec advertisement featuring a hyper-realistic AI creator persona in a warm bathroom setting. Demonstrates rich coconut oil emulsion, split-end smoothing, and effortless detangling with organic voiceover cadence.',
-      visualStyle: 'Native creator selfie-style, warm ambient bathroom lighting, unscripted aesthetic',
-      platforms: 'TikTok Spark Ads, Instagram Reels, YouTube Shorts',
-      hookAngle: '"Okay, this coconut oil conditioner is my new wash day obsession."',
-      techUsed: 'Generative Digital Human Persona, Voice Cloning, Temporal Consistency Engine',
-      fallbackGraphic: (
-        <svg viewBox="0 0 320 480" className="fallback-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
-          {/* Aesthetic Hair Care Bottle & Organic Motif */}
-          <rect width="320" height="480" fill="#0d0d0d"/>
-          <circle cx="160" cy="200" r="120" fill="url(#haskGlow)" opacity="0.12"/>
-          <defs>
-            <radialGradient id="haskGlow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%" stopColor="#d4d4d8"/>
-              <stop offset="100%" stopColor="#000000" stopOpacity="0"/>
-            </radialGradient>
-          </defs>
-          {/* Dispenser Pump Top */}
-          <rect x="156" y="80" width="8" height="28" stroke="#555555" strokeWidth="1.5" fill="#1b1b1b"/>
-          <path d="M152 80 H185 C190 80 192 84 188 88 L175 92 H152 Z" stroke="#666666" strokeWidth="1.5" fill="#242424"/>
-          {/* Bottle Neck */}
-          <rect x="146" y="108" width="28" height="16" rx="2" stroke="#444444" strokeWidth="1.5" fill="#171717"/>
-          {/* Bottle Silhouette */}
-          <path d="M125 140 C125 128 135 124 146 124 H174 C185 124 195 128 195 140 L204 220 C206 240 206 310 200 340 C198 348 190 354 180 354 H140 C130 354 122 348 120 340 C114 310 114 240 116 220 Z" 
-                stroke="#555555" strokeWidth="1.5" fill="#131313"/>
-          {/* Bottle Label Area */}
-          <rect x="130" y="180" width="60" height="110" rx="3" stroke="#333333" fill="#0F0F0F"/>
-          {/* Botanical leaf detail inside label */}
-          <path d="M160 205 C150 215 152 230 160 238 C168 230 170 215 160 205 Z" 
-                stroke="#777777" strokeWidth="1.2" fill="#1c1c1c"/>
-          <line x1="160" y1="210" x2="160" y2="235" stroke="#555555" strokeWidth="1"/>
-          {/* Minimalist label text lines */}
-          <line x1="140" y1="250" x2="180" y2="250" stroke="#888888" strokeWidth="1.5"/>
-          <line x1="145" y1="260" x2="175" y2="260" stroke="#444444" strokeWidth="1"/>
-          <line x1="148" y1="270" x2="172" y2="270" stroke="#444444" strokeWidth="1"/>
-          {/* Creator UI badge overlay */}
-          <rect x="35" y="380" width="250" height="34" rx="17" fill="#161616" stroke="#2e2e2e"/>
-          <circle cx="54" cy="397" r="10" fill="#2a2a2a"/>
-          <text x="74" y="401" fill="#a1a1aa" fontSize="10.5" fontFamily="Space Grotesk, sans-serif" letterSpacing="0.5">
-            CREATOR-LED SPEC DEMO
-          </text>
-        </svg>
-      )
-    },
-    {
       title: 'OCOOKER Kitchen Gadget — AI Product Demonstration',
       category: 'Home Goods & Smart Kitchen Gadgets',
-      aspectRatio: '9:16 Vertical Video',
+      aspectRatio: '9:16 Vertical / 23s',
       ratioSlug: 'vertical',
       videoPath: '/videos/ocooker-blender-ad.mp4',
       description:
@@ -194,6 +144,100 @@ export default function SelectedWork() {
           </text>
         </svg>
       )
+    },
+    {
+      title: 'Vitamin C Glow Serum — AI Creator-Led UGC',
+      category: 'Cosmetics & D2C Skincare',
+      aspectRatio: '9:16 Vertical / 20s',
+      ratioSlug: 'vertical',
+      videoPath: '/videos/lv_0_20261124113246.mp4',
+      description:
+        'An engaging creator-led spec advertisement featuring an ultra-realistic AI creator demonstrating a morning skincare routine. Highlights fluid dropper consistency, macro skin luminescence, and conversational direct-to-camera hook pacing.',
+      visualStyle: 'Native creator selfie camera, radiant ambient lighting, natural conversational cadence',
+      platforms: 'TikTok Spark Ads, Instagram Reels, D2C Product Funnels',
+      hookAngle: '"My 30-second secret to glass skin every morning" — direct dropper application to cheek with instant glow',
+      techUsed: 'Digital Human Synthesis, Facial Geometry Tracking, Neural Audio Sync',
+      fallbackGraphic: (
+        <svg viewBox="0 0 320 480" className="fallback-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* Aesthetic Vitamin C Serum Dropper Bottle */}
+          <rect width="320" height="480" fill="#0d0d0d"/>
+          <circle cx="160" cy="220" r="110" fill="url(#vitCGlow)" opacity="0.15"/>
+          <defs>
+            <radialGradient id="vitCGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stopColor="#f59e0b"/>
+              <stop offset="100%" stopColor="#000000" stopOpacity="0"/>
+            </radialGradient>
+          </defs>
+          {/* Dropper Bulb & Pipette */}
+          <rect x="156" y="85" width="8" height="42" rx="3" stroke="#555555" strokeWidth="1.5" fill="#1c1c1c"/>
+          <path d="M152 127 H168 L165 142 H155 Z" fill="#333333"/>
+          <rect x="150" y="64" width="20" height="24" rx="6" stroke="#444444" strokeWidth="1.5" fill="#141414"/>
+          {/* Bottle Collar */}
+          <rect x="145" y="142" width="30" height="14" rx="2" stroke="#666666" strokeWidth="1.5" fill="#222222"/>
+          {/* Bottle Silhouette */}
+          <path d="M130 160 C130 157 132 157 140 157 H180 C188 157 190 157 190 160 L198 185 C200 190 200 195 200 205 V320 C200 332 190 342 178 342 H142 C130 342 120 332 120 320 V205 C120 195 120 190 122 185 Z" 
+                stroke="#555555" strokeWidth="1.5" fill="#121212"/>
+          {/* Amber fluid */}
+          <path d="M123 235 Q160 228 197 235 V320 C197 330 188 338 178 338 H142 C132 338 123 330 123 320 Z" 
+                fill="#1f180e" stroke="#443216" strokeWidth="1"/>
+          {/* Vitamin C label */}
+          <rect x="135" y="250" width="50" height="44" rx="2" stroke="#333333" fill="#0d0d0d"/>
+          <text x="160" y="268" fill="#f59e0b" fontSize="9" fontWeight="800" fontFamily="Space Grotesk, sans-serif" textAnchor="middle">VITAMIN C</text>
+          <line x1="145" y1="276" x2="175" y2="276" stroke="#777777" strokeWidth="1.5"/>
+          <line x1="150" y1="284" x2="170" y2="284" stroke="#444444" strokeWidth="1"/>
+          {/* Droplet */}
+          <path d="M160 380 C160 380 153 392 153 398 C153 402 156 405 160 405 C164 405 167 402 167 398 C167 392 160 380 160 380 Z" 
+                fill="#f59e0b" opacity="0.85"/>
+          <text x="160" y="440" fill="#666666" fontSize="10" fontFamily="Space Grotesk, sans-serif" textAnchor="middle" letterSpacing="2">
+            AI CREATOR UGC • VITAMIN C SPEC
+          </text>
+        </svg>
+      )
+    },
+    {
+      title: 'Luxury Diamond Necklace — AI Haute Joaillerie Commercial',
+      category: 'High Jewelry & Luxury Goods',
+      aspectRatio: '9:16 Vertical / 15s',
+      ratioSlug: 'vertical',
+      videoPath: '/videos/lv_0_20261124122649.mp4',
+      description:
+        'A cinematic high-jewelry spec commercial showcasing a pear-cut diamond solitaire pendant set within a marquise diamond leaf wreath necklace. Illustrates ray-traced prismatic light dispersion, rich gold reflections, and dramatic starburst flares against black velvet.',
+      visualStyle: 'Moody editorial studio lighting, optical starburst glints, ray-traced gemstone refraction',
+      platforms: 'Instagram Reels, TikTok Luxury Creatives, High-Ticket E-Commerce',
+      hookAngle: '"Pure brilliance captured in light" — dramatic spotlight ignition with starburst diamond flares',
+      techUsed: 'Ray-Traced Light Dispersion, Micro-Camera Pathing, Cinematic Audio Stems',
+      fallbackGraphic: (
+        <svg viewBox="0 0 320 480" className="fallback-svg" fill="none" xmlns="http://www.w3.org/2000/svg">
+          {/* Aesthetic Luxury Diamond Necklace Graphic */}
+          <rect width="320" height="480" fill="#0d0d0d"/>
+          <circle cx="160" cy="220" r="110" fill="url(#necklaceGlow)" opacity="0.15"/>
+          <defs>
+            <radialGradient id="necklaceGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stopColor="#ffffff"/>
+              <stop offset="100%" stopColor="#000000" stopOpacity="0"/>
+            </radialGradient>
+          </defs>
+          {/* Necklace chain curve */}
+          <path d="M60 80 Q160 180 260 80" stroke="#777777" strokeWidth="2" strokeDasharray="4 4" fill="none"/>
+          {/* Diamond leaves */}
+          <ellipse cx="120" cy="150" rx="8" ry="16" transform="rotate(-30 120 150)" stroke="#666666" strokeWidth="1" fill="#1f1f1f"/>
+          <ellipse cx="140" cy="180" rx="8" ry="16" transform="rotate(-15 140 180)" stroke="#777777" strokeWidth="1" fill="#242424"/>
+          <ellipse cx="180" cy="180" rx="8" ry="16" transform="rotate(15 180 180)" stroke="#777777" strokeWidth="1" fill="#242424"/>
+          <ellipse cx="200" cy="150" rx="8" ry="16" transform="rotate(30 200 150)" stroke="#666666" strokeWidth="1" fill="#1f1f1f"/>
+          {/* Pear cut solitaire pendant */}
+          <path d="M160 215 C150 235 138 255 138 275 C138 295 148 305 160 305 C172 305 182 295 182 275 C182 255 170 235 160 215 Z" 
+                stroke="#aaaaaa" strokeWidth="1.5" fill="#1a1a1a"/>
+          {/* Facets inside pear */}
+          <polygon points="160,230 172,275 160,295 148,275" stroke="#777777" strokeWidth="1" fill="#262626"/>
+          {/* Starburst glint */}
+          <path d="M160 200 L163 212 L175 215 L163 218 L160 230 L157 218 L145 215 L157 212 Z" fill="#ffffff" opacity="0.9"/>
+          <circle cx="160" cy="215" r="3" fill="#ffffff"/>
+          {/* Technical text */}
+          <text x="160" y="420" fill="#71717a" fontSize="10" fontFamily="Space Grotesk, sans-serif" textAnchor="middle" letterSpacing="2">
+            SOLITAIRE NECKLACE • HAUTE JOAILLERIE
+          </text>
+        </svg>
+      )
     }
   ];
 
@@ -234,7 +278,7 @@ export default function SelectedWork() {
             <p className="compliance-text">
               Every project presented above is an <strong>independent concept / unofficial spec ad</strong> produced 
               to showcase AI video generation workflows. No official affiliation, endorsement, or client partnership 
-              with featured brands (such as HASK, OCOOKER, or cosmetic manufacturers) is implied.
+              with featured brands (such as OCOOKER or cosmetic lines) is implied.
             </p>
           </div>
         </div>
